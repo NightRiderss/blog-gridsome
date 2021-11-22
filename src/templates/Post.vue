@@ -60,6 +60,11 @@ query ($id:ID!){
 import MarkdownIt from  'markdown-it'
 const md = new MarkdownIt()
 export default {
+    metaInfo() {
+      return{
+        title:this.$page.post.title
+      }
+    },
     name:'PostPage',
     methods:{
       mdToHtml(markdown){

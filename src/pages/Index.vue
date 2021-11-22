@@ -95,8 +95,10 @@ query($page:Int) {
 <script>
 import { Pager } from 'gridsome'
 export default {
-  metaInfo: {
-    title: "Hello, world!",
+  metaInfo() {
+    return{
+      title:this.general.title
+    }
   },
   name: "HomePage",
   components:{

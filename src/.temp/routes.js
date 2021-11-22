@@ -1,9 +1,9 @@
-const c1 = () => import(/* webpackChunkName: "page--src-templates-tag-vue" */ "F:\\lagouWebPro\\lagou-gridsome\\src\\templates\\Tag.vue")
-const c2 = () => import(/* webpackChunkName: "page--src-templates-post-vue" */ "F:\\lagouWebPro\\lagou-gridsome\\src\\templates\\Post.vue")
-const c3 = () => import(/* webpackChunkName: "page--src-pages-contact-vue" */ "F:\\lagouWebPro\\lagou-gridsome\\src\\pages\\Contact.vue")
-const c4 = () => import(/* webpackChunkName: "page--src-pages-about-vue" */ "F:\\lagouWebPro\\lagou-gridsome\\src\\pages\\About.vue")
-const c5 = () => import(/* webpackChunkName: "page--node-modules-gridsome-app-pages-404-vue" */ "F:\\lagouWebPro\\lagou-gridsome\\node_modules\\gridsome\\app\\pages\\404.vue")
-const c6 = () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "F:\\lagouWebPro\\lagou-gridsome\\src\\pages\\Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src-templates-tag-vue" */ "D:\\blog\\blog-gridsome\\src\\templates\\Tag.vue")
+const c2 = () => import(/* webpackChunkName: "page--src-templates-post-vue" */ "D:\\blog\\blog-gridsome\\src\\templates\\Post.vue")
+const c3 = () => import(/* webpackChunkName: "page--src-pages-contact-vue" */ "D:\\blog\\blog-gridsome\\src\\pages\\Contact.vue")
+const c4 = () => import(/* webpackChunkName: "page--src-pages-about-vue" */ "D:\\blog\\blog-gridsome\\src\\pages\\About.vue")
+const c5 = () => import(/* webpackChunkName: "page--node-modules-gridsome-app-pages-404-vue" */ "D:\\blog\\blog-gridsome\\node_modules\\gridsome\\app\\pages\\404.vue")
+const c6 = () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "D:\\blog\\blog-gridsome\\src\\pages\\Index.vue")
 
 export default [
   {
